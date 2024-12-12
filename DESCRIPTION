@@ -1,0 +1,24 @@
+Package: KNZtools
+Title: Tools for Downloading and Processing Konza Prairie LTER Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Connor", "Brown", , "Connor.Brown@ku.com", role = c("aut", "cre"))
+Description: This package provides tools for downloading, cleaning, and processing data from the Konza Prairie Long-Term Ecological Research (LTER) site. Functions include utilities for loading daily precipitation, HQ weather station data, and discharge from the 4 weirs.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+URL: https://github.com/ConnorB/KNZtools
+BugReports: https://github.com/ConnorB/KNZtools/issues
+Imports: 
+    dplyr,
+    EDIutils,
+    lubridate,
+    readr,
+    rlang,
+    tidyr,
+    zoo
+Suggests: 
+    testthat (>= 3.0.0),
+    mockery
+Config/testthat/edition: 3
